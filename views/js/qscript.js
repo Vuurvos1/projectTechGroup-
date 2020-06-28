@@ -21,11 +21,11 @@ slider.oninput = function() {
   }
 };
 
-function shoutOver(){
-  document.getElementById('juich').play();
-}
-document.getElementById('yes').addEventListener('mouseover', shoutOver);
-}
+// function shoutOver(){
+//   document.getElementById('juich').play();
+// }
+// document.getElementById('yes').addEventListener('mouseover', shoutOver);
+// }
 
 // shout.addEventListener('mouseover', () => {
 
