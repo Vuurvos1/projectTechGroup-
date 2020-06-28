@@ -21,12 +21,7 @@ slider.oninput = function() {
   }
 };
 
-// function shoutOver(){
-//   document.getElementById('juich').play();
-// }
-// document.getElementById('yes').addEventListener('mouseover', shoutOver);
-// }
-
-// shout.addEventListener('mouseover', () => {
-
-// });
+function shoutOver() {
+  document.getElementById('juich').play();
+}
+document.getElementById('yesCheer').addEventListener('onclick', shoutOver);
