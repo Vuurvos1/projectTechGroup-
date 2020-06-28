@@ -1,6 +1,7 @@
 const slider = document.querySelector('.slider');
 const val = document.getElementById('dateValue');
 const smile = document.getElementById('smiley');
+// const shout = document.getElementById('yes');
 
 slider.addEventListener('input', () => {
   val.value = slider.value;
@@ -18,5 +19,14 @@ slider.oninput = function() {
     val.value = slider.value;
     smile.src='../img/null.png';
   }
+};
+
+function shoutOver(){
+  document.getElementById('juich').play();
+}
+document.getElementById('yes').addEventListener('mouseover', shoutOver);
 }
 
+// shout.addEventListener('mouseover', () => {
+
+// });
