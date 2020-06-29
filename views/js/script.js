@@ -101,3 +101,23 @@ openMenu.addEventListener('click', (e) => {
   openMenu.removeAttribute('href');
   document.querySelector('#profiles').classList.toggle('active');
 });
+
+
+//  reviewbutton animation---
+
+const reviewBtn = document.querySelector('#like'); //linkt naar de like knop
+console.log(reviewBtn);
+reviewBtn.addEventListener('click', (e) => {
+  e.preventDefault;
+
+
+  setTimeout(submitForm, 50000);
+});
+
+function submitForm() {
+  document.forms['#likeForm'].submit(); //linkt naar het formulier
+}
+
+
+// const submitLike = document.querySelector('#likeForm');
+// submitLike.type = 'submit';

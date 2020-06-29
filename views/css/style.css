@@ -287,15 +287,15 @@ Like form
 }
 
 #likeForm figure {
-  width: 10em;
-  height: 15em;
+  width: 10rem;
+  height: 15rem;
   overflow: hidden;
 }
 
 #likeForm img {
   object-fit: cover;
   width: 100%;
-  border-radius: 0.6em;
+  border-radius: 0.6rem;
 }
 
 #likeForm .person {
@@ -306,7 +306,7 @@ Like form
 }
 
 #likeForm .addData {
-  margin: 1.5em;
+  margin: 1.5rem;
 }
 
 #likeForm .like {
@@ -329,8 +329,8 @@ Like form
 }
 
 #likeForm label {
-  margin: 0.4em;
-  padding: 2em;
+  margin: 0.4rem;
+  padding: 2rem;
   background-repeat: no-repeat;
   transition: 0.1s ease-out;
 }
