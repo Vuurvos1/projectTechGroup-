@@ -876,6 +876,16 @@ questions
   width: 100px;
 }
 
+.title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: var(--white);
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
 /***********************
 Users
 ***********************/
@@ -1003,6 +1013,11 @@ Dashboard
     transform: scale(1.1) rotate(5deg);
   }
   100% {
-    transform: scale(1);
-  }
-}
+    transform: scale(1);button span.shape {
+      height: 60px;
+      width: 160px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
